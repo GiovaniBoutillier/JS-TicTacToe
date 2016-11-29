@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="CSS/tictac.css" media="screen" title="no title">
+    <title> Tic Tac Toe </title>
+  </head>
+  <body>
+    <h1> <img src="IMG/tttmarqlrg.gif"> </h1>
+
+    <div>
+      <table id="tableau">
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+      <div id="gagnant" onclick="invisible()"></div>
+
+    </div>
+
+    <p><input type="button" id="rejouer" name="name" value="Abandon/Recommencer" onclick="reset()">
+        </p>
+
+  </body>
+  <script type="text/javascript" src="JS/tictac.js">
+  </script>
+</html>

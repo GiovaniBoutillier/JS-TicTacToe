@@ -1,0 +1,63 @@
+body {
+  background-image: url("../IMG/images.jpeg");
+  background-size: cover;
+}
+/***********TITRE*********/
+h1 {
+  text-align: center;
+}
+
+h1 img {
+  height: 100px;
+  width: 600px;
+
+}
+
+/**********Tableau*****************************/
+
+div {
+  margin: auto;
+  width: 460px;
+  background:black;
+  position: relative;
+}
+td  {
+  width: 150px;
+  height: 150px;
+  border: solid 1px #4087CB;
+  text-align: center;
+  font-size : 120px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+  box-shadow: 0px 0px 10px 10px #4087CB;
+}
+
+/***********PIONS DES JOUEURS****************/
+
+.player2{
+  color: lightblue;
+
+}
+.player1{
+  color: #EA6896;
+}
+
+/***************GAGNANT************************/
+
+#gagnant {
+      color: #4087CB;
+      text-align: center;
+      font-size: 50px;
+      position:absolute;
+      top:35%;
+      left:0;
+}
+
+p { 
+    margin: auto;
+    text-align: center;
+
+}
