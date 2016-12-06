@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+body{
+  font-family: 'Indie Flower', cursive;
+  font-size : 30px;
+}
+
+#holder{
+  margin : auto;
+  text-align : center;
+}
+
+#tableau{
+  margin : auto;
+  border-collapse : collapse;
+  text-align: center;
+  font-size:60px;
+}
+#tableau td{
+  border: 2px solid black;
+  width : 100px;
+  height: 100px;
+  color:white;
+  cursor: default;
+}
+
+span{
+  padding:6px;
+}
+
+.player1{
+  background-color: red;
+}
+.player1:after{
+  content:"X";
+  /*'after' permet d'ajouter un texte après le texte déjà existant dans l'élément'*/
+}
+.player2{
+  background-color: orange;
+}
+.player2:after{
+  content:"O";
+}
+.noplayer{
+  background-color: white;
+  transition: all 0.3s;
+}
